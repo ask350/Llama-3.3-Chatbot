@@ -44,3 +44,11 @@ button = st.button(label="generate", type="primary")
 if button:
     st.subheader("Model Response : ")
     st.write_stream(model_response(text))
+
+
+
+# to run the app locally type following code in terminal
+# python -m streamlit run app.py
+
+# To stop running app locally type foll in terminal
+# ctrl+c
